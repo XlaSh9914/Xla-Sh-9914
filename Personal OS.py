@@ -24,14 +24,14 @@ if(a):
     print ("minecraft      :- "+"this command opens the minecraft".title())
     time.sleep(1)
     command = str(input("Command: "))
-    b = "mydata" in command
+    b = "mydata" in command #u can use any name in place of "mydata"
     c = "unity" in command
     d = "blender" in command
     e = "minecraft" in command
             
     import os
     if(b):
-        os.startfile("D:\Shivam")
+        os.startfile("D:\Shivam") #use your own file path with \\ *imp*
     if(c):
         os.startfile('D:\\Shivam\\Software\\UnityHub.lnk')
     if(d):
